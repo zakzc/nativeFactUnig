@@ -22,7 +22,6 @@ export default function App() {
     setCalculatedFact(result);
     setButtonSwitch(!buttonSwitch);
     setPrevResults([...prevResults, { base: numToCalculate, result: result }]);
-    console.log(prevResults);
   }
 
   function clearCalc() {
